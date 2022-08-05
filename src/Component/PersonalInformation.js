@@ -1,18 +1,19 @@
 import '../App.css';
-import { saveAs } from "file-saver";
+// import { saveAs } from "file-saver";
 import {previewFile} from '../App'
+// import scrape from 'website-scraper';
+
 function PersonalInformation() {
-    const saveFile = () => {
-        saveAs(
-          "./Ahmad-Resume.pdf",
-          "Ahmad-Resume.pdf"
-        );
-      };
+
   return (
     <>
           <li><h2>Personal Information</h2></li>
           <li>
             <ul className='detailList'>
+              <li className='split'>
+                <span>{`Picture`}</span>
+                <img src='prof.jpg' alt='Profile Pic'/>
+              </li>
               <li className='split'>
                 <span>{`Title`}</span>
                 <span>{`Full stack developer`}</span>
@@ -44,15 +45,6 @@ function PersonalInformation() {
               <li className='split'>
                 <span>{`Github`}</span>
                 <input type="button" value="View" onClick={() => previewFile("https://github.com/ahmadmarhaba")}/>
-              </li>
-              <li className='split'>
-                <div>
-                  {`CV File`}
-                </div>
-                <div className='multipleButtons'>
-                  <input type="button" value="Download" onClick={saveFile} />
-                  <input type="button" value="View" onClick={() => previewFile("Ahmad-Resume.pdf")}/>
-                </div>
               </li>
             </ul>
           </li>

@@ -84,3 +84,10 @@ h2{
   padding: 6px 12px;
   font-size: 90%;
 }
+img{
+  border-radius: 56px;
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+  object-position: right;
+}

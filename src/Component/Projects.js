@@ -17,7 +17,7 @@ function Projects() {
                 {`Live Preview`} <input type="button" value="View" onClick={() =>previewFile("https://ahmadmarhaba.github.io/ws-product-react/")}/>
               </li>
               <li className='summary'>
-                {`Summary: The project was based on showing my ability to write a modern react project, that contains all sort of data charts and statistics in a very simple way.`}
+                {`Summary: The project was based on showing my ability to write a modern react project, that contains all sort of data charts and statistics in a simple way.`}
               </li>
             </ul>
           </li>
