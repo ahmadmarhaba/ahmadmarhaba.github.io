@@ -85,7 +85,7 @@ h2{
   font-size: 90%;
 }
 img{
-  border-radius: 56px;
+  border-radius: 50%;
   width: 10em;
   height: 10em;
   object-fit: cover;
