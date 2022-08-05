@@ -18,9 +18,9 @@ function App() {
           <Skills />
           <Projects />
           <WorkExperience />
+          <ProgrammingLanguages />
           <Education />
           <Certificates />
-          <ProgrammingLanguages />
           <Languages />
           <Visa />
         </ul>

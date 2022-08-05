@@ -1,5 +1,5 @@
 import '../App.css';
-import {previewFile} from '../App'
+
 function Certificates() {
   return (
     <>

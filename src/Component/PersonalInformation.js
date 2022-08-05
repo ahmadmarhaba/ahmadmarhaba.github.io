@@ -14,7 +14,7 @@ function PersonalInformation() {
           <li>
             <ul className='detailList'>
               <li className='split'>
-                <span>{`Occupation`}</span>
+                <span>{`Title`}</span>
                 <span>{`Full stack developer`}</span>
               </li>
               <li className='split'>
