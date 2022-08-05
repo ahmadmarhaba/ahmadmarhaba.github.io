@@ -3,21 +3,21 @@ body{
   color:#c9d1d9;
 }
 .main{
-  width: 600px;
+  width: 100%;
+  max-width: 38em;
   margin: auto;
+  margin-bottom: 4em;
 }
 .main ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-.main li{
-  font-size: 20px;
-}
 .split{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.2em;
 }
 input[type=button]{
   font-size: 18px;
@@ -60,4 +60,27 @@ input[type=button]:hover{
 h2{
   border-bottom: 1px solid #21262C;
   padding-bottom: 0.3em;
+}
+.summary{
+  color: #8b949e;
+  font-size: 1.1em;
+    font-style: italic;
+}
+.summary li{
+  font-size: 1em !important;
+}
+.listPoints{
+  border-left: .25em solid #30363d;
+  padding: 0 1em !important;
+}
+.points{
+  flex-wrap: wrap;
+    justify-content: start;
+}
+.points span{
+  background-color: rgba(110,118,129,0.4);
+  border-radius: 6px;
+  margin: 4px;
+  padding: 6px 12px;
+  font-size: 90%;
 }

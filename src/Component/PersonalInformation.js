@@ -1,7 +1,7 @@
 import '../App.css';
 import { saveAs } from "file-saver";
 import {previewFile} from '../App'
-function Information() {
+function PersonalInformation() {
     const saveFile = () => {
         saveAs(
           "./Ahmad-Resume.pdf",
@@ -10,9 +10,13 @@ function Information() {
       };
   return (
     <>
-          <li><h2>Information</h2></li>
+          <li><h2>Personal Information</h2></li>
           <li>
             <ul className='detailList'>
+              <li className='split'>
+                <span>{`Occupation`}</span>
+                <span>{`Full stack developer`}</span>
+              </li>
               <li className='split'>
                 <span>{`Full Name`}</span>
                 <span>{`Ahmad Marhaba`}</span>
@@ -24,6 +28,10 @@ function Information() {
               <li className='split'>
                 <span>{`Mobile`}</span>
                 <span>{`+961 76 600 574`}</span>
+              </li>
+              <li className='split'>
+                <span>{`Location`}</span>
+                <span>{`Tripoli, North, Lebanon`}</span>
               </li>
               <li className='split'>
                 <span>{`Birth Date`}</span>
@@ -52,4 +60,4 @@ function Information() {
   );
 }
 
-export default Information;
+export default PersonalInformation;
