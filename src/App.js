@@ -37,7 +37,6 @@ function App() {
               <Education />
               <Certificates />
               <Languages />
-              <Visa />
             </>
           }
           {
@@ -48,6 +47,7 @@ function App() {
           {
             page === 2 && <>
               <Letter />
+              <Visa />
             </>
           }
         </ul>
