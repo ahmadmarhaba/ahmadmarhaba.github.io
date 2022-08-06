@@ -99,6 +99,7 @@ img{
   border-bottom: 2px solid #21262c;
   cursor: pointer;
   user-select: none;
+  transition: 0.3s ease all;
 }
 .nav label:hover{
   border-color: #ff00005e;
