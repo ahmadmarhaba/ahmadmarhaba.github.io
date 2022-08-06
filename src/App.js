@@ -32,8 +32,8 @@ function App() {
             page === 0 && <>
               <PersonalInformation />
               <Skills />
-              <WorkExperience />
               <ProgrammingLanguages />
+              <WorkExperience />
               <Education />
               <Certificates />
               <Languages />
