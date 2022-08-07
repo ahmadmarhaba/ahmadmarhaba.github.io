@@ -22,6 +22,7 @@ function Skills() {
                 <span>{`XML / JSON`}</span>
                 <span>{`Redux`}</span>
                 <span>{`Socket.io / WebRtc`}</span>
+                <span>{`JQuery`}</span>
                 <span>{`Crypto (Entry level)`}</span>
                 <span>{`Client-side Geo / Table / Chart data visualization`}</span>
                 <span>{`Performance testing`}</span>
@@ -31,7 +32,7 @@ function Skills() {
                 <span>{`Up-to-date with latest trends`}</span>
                 <span>{`Self-development`}</span>
                 <span>{`Mathematical aptitude`}</span>
-                <span>{`Good communication`}</span>
+                <span>{`Great communication`}</span>
                 <span>{`Organisational and time management`}</span>
                 <span>{`Ability to work on large scale projects`}</span>
                 <span>{`Ability to accept feedback`}</span>
