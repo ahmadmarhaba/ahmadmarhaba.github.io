@@ -11,10 +11,6 @@ function PersonalInformation() {
           <li>
             <ul className='detailList'>
               <li className='split'>
-                <span>{`Picture`}</span>
-                <img src='prof.jpg' alt='Profile Pic'/>
-              </li>
-              <li className='split'>
                 <span>{`Title`}</span>
                 <span>{`Full stack developer`}</span>
               </li>
