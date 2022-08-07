@@ -30,7 +30,7 @@ function Projects() {
                 {`Github Code`}<input type="button" value="View" onClick={() =>previewFile("https://github.com/ahmadmarhaba/ws-product-nodejs")}/>
               </li>
               <li className='split'>
-                {`Live Preview`}<input type="button" value="View" onClick={() =>previewFile("https://vast-glass-iron.glitch.me")}/>
+                {`Live Preview`}<input type="button" value="View" onClick={() =>previewFile("https://ahmadmarhaba-ws-product-nodejs.herokuapp.com/")}/>
               </li>
               <li className='summary'>
                 {`Summary: The project was to learn Docker, Kubernetes, and terraform for a serverless CI/CD improving my skills.`}
