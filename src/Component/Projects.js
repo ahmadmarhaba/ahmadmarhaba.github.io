@@ -17,7 +17,7 @@ function Projects() {
                 {`Live Preview`} <input type="button" value="View" onClick={() =>previewFile("https://ahmadmarhaba.github.io/ws-product-react/")}/>
               </li>
               <li className='summary'>
-                {`Summary: The project was based on showing my ability to write a modern react project, that contains all sort of data charts and statistics in a simple way.`}
+                {`Summary: A modern react project, that contains all sort of data charts and statistics that also includes api limiting.`}
               </li>
             </ul>
           </li>
@@ -33,7 +33,7 @@ function Projects() {
                 {`Live Preview`}<input type="button" value="View" onClick={() =>previewFile("https://ahmadmarhaba-ws-product-nodejs.herokuapp.com/")}/>
               </li>
               <li className='summary'>
-                {`Summary: The project was to learn Docker, Kubernetes, and terraform for a serverless CI/CD improving my skills.`}
+                {`Summary: A serverless CI/CD project, that uses Docker, Kubernetes, and Terraform.`}
               </li>
             </ul>
           </li>
