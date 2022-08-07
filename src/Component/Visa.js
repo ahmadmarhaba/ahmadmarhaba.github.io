@@ -13,10 +13,7 @@ function Visa() {
                 <span>{`I would appreciate giving me a chance to prove myself since I'm not a canadian citizen.`}</span>
               </li>
               <li className='split'>
-                <span>{`I worked in a canadian company for a whole year, and I never had any complications.`}</span>
-              </li>
-              <li className='split'>
-                <span>{`My last canadian company loved me alot and appreciated my motivation and experience I provided.`}</span>
+                <span>{`My last canadian company loved me alot and appreciated my motivation and experience I provided. Worked for a whole year and never had any complications.`}</span>
               </li>
             </ul>
           </li>
