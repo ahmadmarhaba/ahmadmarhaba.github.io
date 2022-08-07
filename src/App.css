@@ -7,6 +7,7 @@ body{
   max-width: 47em;
   margin: auto;
   margin-bottom: 4em;
+  margin-top: 5em;
 }
 .main ul{
   list-style-type: none;
@@ -57,6 +58,7 @@ input[type=button]:hover{
 h2{
   border-bottom: 1px solid #21262C;
   padding-bottom: 0.3em;
+  padding-left: 0.3em;
 }
 .summary{
   color: #8b949e;
@@ -80,6 +82,8 @@ h2{
   margin: 4px;
   padding: 6px 12px;
   font-size: 90%;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 img{
   border-radius: 50%;
@@ -89,15 +93,25 @@ img{
   object-position: right;
 }
 .nav{
+  position: fixed;
   display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  max-width: 47em;
+  background-color: #0d1117;
 }
 .nav label{
   width: 100%;
   text-align: center;
   line-height: 64px;
+  max-height: 64px;
   font-size: 22px;
+  overflow: hidden;
   border-bottom: 2px solid #21262c;
   cursor: pointer;
+  -webkit-user-select: none;
   user-select: none;
   transition: 0.3s ease all;
 }

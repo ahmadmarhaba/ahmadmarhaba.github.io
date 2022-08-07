@@ -15,7 +15,6 @@ function App() {
   const [page,SetPage] = useState(0)
   return (
     <div className="App">
-      <div className='main'>
         <div className='nav'>
           <label className={page === 0 ? `selectedButton`: ''}>
             <input type="radio" value={0} name="page" onChange={(e)=>{ SetPage(parseInt(e.target.value)) }}/>Resume
@@ -27,6 +26,7 @@ function App() {
             <input type="radio" value={2} name="page" onChange={(e)=>{ SetPage(parseInt(e.target.value)) }}/>Cover Letter
           </label>
         </div>
+      <div className='main'>
         <ul>
           {
             page === 0 && <>
