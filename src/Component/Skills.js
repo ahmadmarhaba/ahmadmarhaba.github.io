@@ -12,10 +12,10 @@ function Skills() {
                 <span>{`Agile / Scrum`}</span>
                 <span>{`Typescript`}</span>
                 <span>{`Rest API`}</span>
-                <span>{`CI / CD`}</span>
+                {/* <span>{`CI / CD`}</span>
                 <span>{`Docker`}</span>
                 <span>{`Terraform`}</span>
-                <span>{`Kubernetes`}</span>
+                <span>{`Kubernetes`}</span> */}
                 <span>{`Redis`}</span>
                 <span>{`SQL Server / MySQL / PostgreSQL`}</span>
                 <span>{`Nginx / Apache`}</span>
