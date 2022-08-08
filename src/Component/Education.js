@@ -19,10 +19,6 @@ function Education() {
                 <span>{`Bachelor of Science`}</span>
               </li>
               <li className='split'>
-                <span>{`Joined`}</span>
-                <span>{`2017 - 2019`}</span>
-              </li>
-              <li className='split'>
                 <span>{`Location`}</span>
                 <span>{`Tripoli, North, Lebanon`}</span>
               </li>

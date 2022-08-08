@@ -23,18 +23,6 @@ function PersonalInformation() {
                 <span>{`ahmadmarhaba@gmail.com`}</span>
               </li>
               <li className='split'>
-                <span>{`Mobile`}</span>
-                <span>{`+961 76 600 574`}</span>
-              </li>
-              <li className='split'>
-                <span>{`Location`}</span>
-                <span>{`Tripoli, North, Lebanon`}</span>
-              </li>
-              <li className='split'>
-                <span>{`Birth Date`}</span>
-                <span>{`01 January, 1999`}</span>
-              </li>
-              <li className='split'>
                 <span>{`LinkedIn`}</span>
                 <input type="button" value="View" onClick={() => previewFile("https://www.linkedin.com/in/ahmad-marhaba-029145181/")}/>
               </li>
