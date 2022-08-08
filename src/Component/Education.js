@@ -19,10 +19,6 @@ function Education() {
                 <span>{`Bachelor of Science`}</span>
               </li>
               <li className='split'>
-                <span>{`Location`}</span>
-                <span>{`Tripoli, North, Lebanon`}</span>
-              </li>
-              <li className='split'>
                 <span>{`Site`}</span>
                 <input type="button" value="View" onClick={() => previewFile("https://www.bau.edu.lb/")}/>
               </li>
