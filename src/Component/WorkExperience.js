@@ -19,10 +19,6 @@ function WorkExperience() {
                 <span>{`05/2019 - 12/2019`}</span>
               </li>
               <li className='split'>
-                <span>{`CEO`}</span>
-                <span>{`Mahmoud Saïd`}</span>
-              </li>
-              <li className='split'>
                 <span>{`Site`}</span>
                 <input type="button" value="View" onClick={() =>previewFile("http://www.telepaty.com/")}/>
               </li>
@@ -61,10 +57,6 @@ function WorkExperience() {
               <li className='split'>
                 <span>{`Joined`}</span>
                 <span>{`12/2020 - 12/2021`}</span>
-              </li>
-              <li className='split'>
-                <span>{`CEO`}</span>
-                <span>{`Mohamed Al Rifai`}</span>
               </li>
               <li className='split'>
                 <span>{`Site`}</span>
