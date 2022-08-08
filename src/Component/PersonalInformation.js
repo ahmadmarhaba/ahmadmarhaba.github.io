@@ -20,7 +20,7 @@ function PersonalInformation() {
               </li>
               <li className='split'>
                 <span>{`Email`}</span>
-                <span><a href="mailto:ahmadmarhaba@gmail.com">ahmadmarhaba@gmail.com</a></span>
+                <span><a href="mailto:ahmadmarhaba.8881@gmail.com">ahmadmarhaba.8881@gmail.com</a></span>
               </li>
               <li className='split'>
                 <span>{`LinkedIn`}</span>
