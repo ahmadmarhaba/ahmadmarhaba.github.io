@@ -4,27 +4,31 @@ function Skills() {
   return (
     <>
             <li><h2>Skills</h2></li>
+            <li><h3>Tech</h3></li>
             <li className='split points'>
                 <span>{`React js / Next js / .Net / Electron / Unity / React Native / Xamarin`}</span>
                 <span>{`Asp.net / Node js / Php`}</span>
+                <span>{`Redux`}</span>
+                <span>{`Redis`}</span>
+                <span>{`Rest API`}</span>
+                <span>{`Typescript`}</span>
                 <span>{`Git / Github`}</span>
                 <span>{`Github Actions`}</span>
-                <span>{`Redux`}</span>
-                <span>{`Typescript`}</span>
-                <span>{`Rest API`}</span>
                 <span>{`CI / CD`}</span>
                 <span>{`Docker`}</span>
                 <span>{`Terraform`}</span>
                 <span>{`Kubernetes`}</span>
-                <span>{`Redis`}</span>
                 <span>{`SQL Server / MySQL / PostgreSQL`}</span>
                 <span>{`Nginx / Apache`}</span>
                 <span>{`XML / JSON`}</span>
                 <span>{`Socket.io / WebRtc`}</span>
                 <span>{`JQuery`}</span>
-                <span>{`Crypto (Entry level)`}</span>
-                <span>{`Client-side Geo / Table / Chart data visualization`}</span>
+                <span>{`Web3 Crypto`}</span>
                 <span>{`OOP`}</span>
+                <span>{`Client-side Geo / Table / Chart data visualization`}</span>
+            </li>
+            <li><h3>Team</h3></li>
+            <li className='split points'>
                 <span>{`Agile / Scrum`}</span>
                 <span>{`Performance testing`}</span>
                 <span>{`Problem Solving`}</span>

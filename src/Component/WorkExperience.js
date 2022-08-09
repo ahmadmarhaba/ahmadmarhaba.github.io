@@ -56,7 +56,7 @@ function WorkExperience() {
               </li>
               <li className='split'>
                 <span>{`Joined`}</span>
-                <span>{`12/2020 - 12/2021`}</span>
+                <span>{`12/2020 - Current`}</span>
               </li>
               <li className='split'>
                 <span>{`Site`}</span>
