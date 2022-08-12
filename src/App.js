@@ -28,6 +28,7 @@ function App() {
         </div>
       <div className='main'>
         <ul>
+          <li><div className='alert'>I am not asking for a sponsorship, I'm sponsoring myself.<br /> Meanwhile, waiting for my work permit papers to finish.</div></li>
           {
             page === 0 && <>
               <PersonalInformation />
@@ -50,6 +51,8 @@ function App() {
               <Visa />
             </>
           }
+          
+          
         </ul>
       </div>
     </div>
