@@ -13,6 +13,7 @@ import { useState } from 'react';
 
 function App() {
   const [page,SetPage] = useState(0)
+  const [alert,SetAlert] = useState(true)
   return (
     <div className="App">
         <div className='nav'>
@@ -28,7 +29,13 @@ function App() {
         </div>
       <div className='main'>
         <ul>
-          <li><div className='alert'>I am not asking for a canadian sponsorship, I'm sponsoring myself.<br /> Meanwhile, waiting for my canadian work permit papers to finish.</div></li>
+          {
+            alert &&
+            <li className='alert'>
+              <div>I am not asking for a canadian sponsorship, I'm sponsoring myself.<br /> Meanwhile, waiting for my canadian work permit papers to finish.</div>
+              <input type="button" value="X" onClick={()=>{ SetAlert(false) }} />
+            </li>
+          }
           {
             page === 0 && <>
               <PersonalInformation />
