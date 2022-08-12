@@ -37,19 +37,6 @@ function Projects() {
               </li>
             </ul>
           </li>
-          <li>
-            <h3>
-              {`ahmadmarhaba.github.io`}
-            </h3>
-            <ul className='detailList'>
-              <li className='split'>
-                {`Live Preview`}<input type="button" value="View" onClick={() =>previewFile("https://ahmadmarhaba.github.io/")}/>
-              </li>
-              <li className='summary'>
-                {`Summary: This is the github project you're currently viewing, that I custom made for easy access to my information needed for the job.`}
-              </li>
-            </ul>
-          </li>
     </>
   );
 }
