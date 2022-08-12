@@ -15,8 +15,8 @@ function WorkExperience() {
                 <span>{`Web Developer`}</span>
               </li>
               <li className='split'>
-                <span>{`Joined`}</span>
-                <span>{`05/2019 - 12/2019`}</span>
+                <span>{`Year`}</span>
+                <span>{`2019`}</span>
               </li>
               <li className='split'>
                 <span>{`Site`}</span>
@@ -55,8 +55,8 @@ function WorkExperience() {
                 <span>{`Software Developer`}</span>
               </li>
               <li className='split'>
-                <span>{`Joined`}</span>
-                <span>{`12/2020 - Current`}</span>
+                <span>{`Year`}</span>
+                <span>{`2020 - Current`}</span>
               </li>
               <li className='split'>
                 <span>{`Site`}</span>
