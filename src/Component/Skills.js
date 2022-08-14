@@ -18,7 +18,7 @@ function Skills() {
                 <span>{`Docker`}</span>
                 <span>{`Terraform`}</span>
                 <span>{`Kubernetes`}</span>
-                <span>{`SQL Server / MySQL / PostgreSQL`}</span>
+                <span>{`SQL Server / MySQL / PostgreSQL / Firebase`}</span>
                 <span>{`Nginx / Apache`}</span>
                 <span>{`XML / JSON`}</span>
                 <span>{`Socket.io / WebRtc`}</span>

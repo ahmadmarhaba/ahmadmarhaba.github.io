@@ -11,29 +11,32 @@ function Projects() {
             </h3>
             <ul className='detailList'>
               <li className='split'>
-                {`Github Code`}<input type="button" value="View" onClick={() =>previewFile("https://github.com/ahmadmarhaba/chat-app-nextjs")}/>
+                {`Github Code`}
+                <div>
+                  <input type="button" value="Application" onClick={() =>previewFile("https://github.com/ahmadmarhaba/chat-app-nextjs")}/>
+                  <input type="button" value="Server" onClick={() =>previewFile("https://github.com/ahmadmarhaba/chat-app-nodejs")}/>
+                </div>
               </li>
               <li className='split'>
-                {`Live Preview`} <input type="button" value="View" onClick={() =>previewFile("https://chat-app-nextjs-ahmadmarhaba.vercel.app")}/>
+                {`Live Preview`} 
+                <div>
+                  <input type="button" value="Application" onClick={() =>previewFile("https://chat-app-nextjs-ahmadmarhaba.vercel.app")}/>
+                  <input type="button" value="Server" onClick={() =>previewFile("https://ahmadmarhaba-chat-app-nextjs.herokuapp.com/")}/>
+                </div>
               </li>
               <li className='summary'>
-                {`Summary: A chat app project that enables you to Send and Recieve 1 on 1 private messages with any user with authentication in mind.`}
+                {`This is a chat app project that enables you to send and recieve private messages in real-time with any user.`}
               </li>
-            </ul>
-          </li>
-          <li>
-            <h3>
-              {`chat-app-nodejs`}
-            </h3>
-            <ul className='detailList'>
-              <li className='split'>
-                {`Github Code`}<input type="button" value="View" onClick={() =>previewFile("https://github.com/ahmadmarhaba/chat-app-nodejs")}/>
-              </li>
-              <li className='split'>
-                {`Live Preview`} <input type="button" value="View" onClick={() =>previewFile("https://ahmadmarhaba-chat-app-nextjs.herokuapp.com/")}/>
-              </li>
-              <li className='summary'>
-                {`Summary: This is a server to manage the chat app project for live time chat and storage managment.`}
+              <li className='split points'>
+                <span>{`Next js`}</span>
+                <span>{`Node js`}</span>
+                <span>{`Redux`}</span>
+                <span>{`Typescript`}</span>
+                <span>{`Git / Github`}</span>
+                <span>{`Github Actions`}</span>
+                <span>{`Firebase`}</span>
+                <span>{`JSON`}</span>
+                <span>{`Socket.io`}</span>
               </li>
             </ul>
           </li>
@@ -43,29 +46,37 @@ function Projects() {
             </h3>
             <ul className='detailList'>
               <li className='split'>
-                {`Github Code`}<input type="button" value="View" onClick={() =>previewFile("https://github.com/ahmadmarhaba/ws-product-react")}/>
+                {`Github Code`}
+                <div>
+                  <input type="button" value="Application" onClick={() =>previewFile("https://github.com/ahmadmarhaba/ws-product-react")}/>
+                  <input type="button" value="Server" onClick={() =>previewFile("https://github.com/ahmadmarhaba/ws-product-nodejs")}/>
+                </div>
               </li>
               <li className='split'>
-                {`Live Preview`} <input type="button" value="View" onClick={() =>previewFile("https://ahmadmarhaba.github.io/ws-product-react/")}/>
+                {`Live Preview`} 
+                <div>
+                  <input type="button" value="Application" onClick={() =>previewFile("https://ahmadmarhaba.github.io/ws-product-react/")}/>
+                  <input type="button" value="Server" onClick={() =>previewFile("https://ahmadmarhaba-ws-product-nodejs.herokuapp.com/")}/>
+                </div>
               </li>
               <li className='summary'>
-                {`Summary: A modern react project, that contains all sort of data charts and statistics that also includes api limiting.`}
+                {`Summary: A modern react project that contains all sort of data charts and statistics that also includes api limiting. Also utilizes continuous integration continuous development for the server.`}
               </li>
-            </ul>
-          </li>
-          <li>
-            <h3>
-              {`ws-product-nodejs`}
-            </h3>
-            <ul className='detailList'>
-              <li className='split'>
-                {`Github Code`}<input type="button" value="View" onClick={() =>previewFile("https://github.com/ahmadmarhaba/ws-product-nodejs")}/>
-              </li>
-              <li className='split'>
-                {`Live Preview`}<input type="button" value="View" onClick={() =>previewFile("https://ahmadmarhaba-ws-product-nodejs.herokuapp.com/")}/>
-              </li>
-              <li className='summary'>
-                {`Summary: A serverless CI/CD project, that uses Docker, Kubernetes, and Terraform.`}
+              <li className='split points'>
+                <span>{`React js`}</span>
+                <span>{`Node js`}</span>
+                <span>{`Redux`}</span>
+                <span>{`Redis`}</span>
+                <span>{`Rest API`}</span>
+                <span>{`Git / Github`}</span>
+                <span>{`Github Actions`}</span>
+                <span>{`CI / CD`}</span>
+                <span>{`Docker`}</span>
+                <span>{`Terraform`}</span>
+                <span>{`Kubernetes`}</span>
+                <span>{`PostgreSQL`}</span>
+                <span>{`JSON`}</span>
+                <span>{`Client-side Geo / Table / Chart data visualization`}</span>
               </li>
             </ul>
           </li>
