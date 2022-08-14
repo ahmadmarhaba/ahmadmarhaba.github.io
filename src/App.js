@@ -32,8 +32,8 @@ function App() {
           {
             alert &&
             <li className='alert'>
-              <div>I am not asking for a canadian sponsorship, I'm sponsoring myself.<br /> Meanwhile, waiting for my canadian work permit papers to finish.</div>
-              <input type="button" value="X" onClick={()=>{ SetAlert(false) }} />
+              <div>With all due respect I'm not asking for a sponsorship as I can sponsor myself, all my aim is to be employeed by the company. I do wanna live in Canada but waiting for my work permit papers.</div>
+              <input type="button" value="✖" onClick={()=>{ SetAlert(false) }} />
             </li>
           }
           {
