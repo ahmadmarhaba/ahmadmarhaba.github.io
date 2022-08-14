@@ -7,7 +7,7 @@ function Projects() {
           <li><h2>Projects</h2></li>
           <li>
             <h3>
-              {`chat-app-nextjs`}
+              {`Chat App`}
             </h3>
             <ul className='detailList'>
               <li className='split'>
@@ -25,7 +25,7 @@ function Projects() {
                 </div>
               </li>
               <li className='summary'>
-                {`This is a chat app project that enables you to send and recieve private messages in real-time with any user.`}
+                {`Summary: This is a chat app project that enables you to send and recieve private messages in real-time with any user.`}
               </li>
               <li className='split points'>
                 <span>{`Next js`}</span>
@@ -42,7 +42,7 @@ function Projects() {
           </li>
           <li>
             <h3>
-              {`ws-product-react`}
+              {`WS Product`}
             </h3>
             <ul className='detailList'>
               <li className='split'>
