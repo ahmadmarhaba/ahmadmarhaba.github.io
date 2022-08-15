@@ -21,9 +21,9 @@ function Skills() {
                 <span>{`SQL Server / MySQL / PostgreSQL / Firebase`}</span>
                 <span>{`Nginx / Apache`}</span>
                 <span>{`XML / JSON`}</span>
-                <span>{`Socket.io / WebRtc`}</span>
+                <span>{`Socket.io / WebRtc / SignalR`}</span>
                 <span>{`JQuery`}</span>
-                <span>{`Web3 Crypto`}</span>
+                <span>{`Web3`}</span>
                 <span>{`OOP`}</span>
                 <span>{`Client-side Geo / Table / Chart data visualization`}</span>
             </li>

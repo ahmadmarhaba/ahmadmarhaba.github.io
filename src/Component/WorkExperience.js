@@ -39,10 +39,19 @@ function WorkExperience() {
                     <li>
                         <span>{`Worked with a designer, while having multiple senior developers supervising project progress.`}</span>
                     </li>
-                    <li>
-                        <span>{`Used Asp.Net and MVC (Frontend + Backend), and MSSQL (Database).`}</span>
-                    </li>
                 </ul>
+                <br />
+              <li className='split points'>
+                <span>{`.Net`}</span>
+                <span>{`Asp.net`}</span>
+                <span>{`Rest API`}</span>
+                <span>{`SQL Server`}</span>
+                <span>{`JSON`}</span>
+                <span>{`SignalR`}</span>
+                <span>{`JQuery`}</span>
+                <span>{`OOP`}</span>
+                <span>{`Client-side Geo / Table / Chart data visualization`}</span>
+              </li>
             </ul>
           </li>
           <li>
@@ -78,10 +87,22 @@ function WorkExperience() {
                     <li>
                         <span>{`Worked with a designer and a data analyst, while having a senior developer supervising project progress.`}</span>
                     </li>
-                    <li>
-                        <span>{`Used Unity (Game), Next js (Frontend), Node js (Backend), and SQL Server ( Database).`}</span>
-                    </li>
                 </ul>
+                <br />
+                <li className='split points'>
+                  <span>{`Next js / Electron / Unity`}</span>
+                  <span>{`Node js`}</span>
+                  <span>{`Redux`}</span>
+                  <span>{`Redis`}</span>
+                  <span>{`Rest API`}</span>
+                  <span>{`Typescript`}</span>
+                  <span>{`Git / Github`}</span>
+                  <span>{`SQL Server`}</span>
+                  <span>{`Nginx`}</span>
+                  <span>{`JSON`}</span>
+                  <span>{`Socket.io`}</span>
+                  <span>{`OOP`}</span>
+                </li>
             </ul>
           </li>
     </>

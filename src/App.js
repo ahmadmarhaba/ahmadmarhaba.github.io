@@ -32,7 +32,7 @@ function App() {
           {
             alert &&
             <li className='alert'>
-              <div>With all due respect I'm not asking for a sponsorship, all my aim is to be employeed by the company as I am waiting for my canadian work permit.</div>
+              <div>With all due respect I'm not applying for the sponsorship, I simply want to work for the company while I'm waiting for my canadian work permit.</div>
               <input type="button" value="✖" onClick={()=>{ SetAlert(false) }} />
             </li>
           }
