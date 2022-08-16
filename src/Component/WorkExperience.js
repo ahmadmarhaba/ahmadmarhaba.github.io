@@ -69,21 +69,21 @@ function WorkExperience() {
               <li className='split'>
                 <span>{`Tasks / Achievements`}</span>
               </li>
-                <ul className='listPoints summary'>
-                    <li className='split'>
-                        <span>{`Bug fixing and design issues for Makane`}</span>
-                        <input type="button" value="View" onClick={() =>previewFile("https://makane.myviva.net/")}/>
-                    </li>
-                    <li>
-                        <span>{`Created a wedding card invitation creator.`}</span>
-                    </li>
-                    <li>
-                        <span>{`Recreated a site called yumush that allows users to critic products using rating and post discussion threads.`}</span>
-                    </li>
-                    <li>
-                        <span>{`Worked with a designer, while having multiple senior developers supervising project progress.`}</span>
-                    </li>
-                </ul>
+              <ul className='listPoints summary'>
+                  <li className='split'>
+                      <span>{`Bug fixing and design issues for Makane`}</span>
+                      <input type="button" value="View" onClick={() =>previewFile("https://makane.myviva.net/")}/>
+                  </li>
+                  <li>
+                      <span>{`Created a wedding card invitation creator.`}</span>
+                  </li>
+                  <li>
+                      <span>{`Recreated a site called yumush that allows users to critic products using rating and post discussion threads.`}</span>
+                  </li>
+                  <li>
+                      <span>{`Worked with a designer, while having multiple senior developers supervising project progress.`}</span>
+                  </li>
+              </ul>
             </ul>
           </li>
     </>
