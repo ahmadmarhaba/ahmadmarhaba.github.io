@@ -70,7 +70,7 @@ h2{
 }
 .listPoints{
   border-left: .25em solid #30363d;
-  padding: 0 1em !important;
+  padding-left: 1em !important;
 }
 .points{
   flex-wrap: wrap;

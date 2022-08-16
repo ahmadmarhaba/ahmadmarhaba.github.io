@@ -5,7 +5,6 @@ import  WorkExperience  from "./Component/WorkExperience";
 import  Education  from "./Component/Education";
 import  Certificates  from "./Component/Certificates";
 import  Languages  from "./Component/Languages";
-import  ProgrammingLanguages  from "./Component/ProgrammingLanguages";
 import  Skills  from "./Component/Skills";
 import  Visa  from "./Component/Visa";
 import  Letter  from "./Component/Letter";
@@ -32,7 +31,7 @@ function App() {
           {
             alert &&
             <li className='alert'>
-              <div>With all due respect I'm not applying for the sponsorship, I simply want to work for the company while I'm waiting for my canadian work permit.</div>
+              <div>I am sponsoring myself, I already applied for a canadian work permit with my current canadian job, I'm just waiting the papers to finish.</div>
               <input type="button" value="✖" onClick={()=>{ SetAlert(false) }} />
             </li>
           }
@@ -40,7 +39,6 @@ function App() {
             page === 0 && <>
               <PersonalInformation />
               <Skills />
-              <ProgrammingLanguages />
               <WorkExperience />
               <Education />
               <Certificates />
