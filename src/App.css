@@ -4,7 +4,7 @@ body{
 }
 .main{
   width: 96%;
-  max-width: 50em;
+  max-width: 55em;
   margin: auto;
   margin-bottom: 4em;
   margin-top: 5em;
@@ -92,7 +92,7 @@ h2{
   right: 0;
   left: 0;
   margin: auto;
-  max-width: 50em;
+  max-width: 55em;
   background-color: #0d1117;
 }
 .nav label{
