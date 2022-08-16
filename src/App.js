@@ -31,7 +31,7 @@ function App() {
           {
             alert &&
             <li className='alert'>
-              <div>I am sponsoring myself, I already applied for a canadian work permit with my current canadian job, I'm just waiting the papers to finish.</div>
+              <div>I already applied for a canadian work permit with my current canadian job, I'm just waiting the papers to finish then I'm going to Canada.</div>
               <input type="button" value="✖" onClick={()=>{ SetAlert(false) }} />
             </li>
           }
