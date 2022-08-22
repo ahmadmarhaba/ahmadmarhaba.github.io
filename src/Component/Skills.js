@@ -15,7 +15,7 @@ function Skills() {
                 <span>{`Xamarin`}</span>
                 <span>{`Redux`}</span>
                 <span>{`JQuery`}</span>
-                <span>{`Client-side Geo/Table/Chart data visualization`}</span>
+                <span>{`Client-side visualization`}</span>
             </li>
             <li><h3>Back-end</h3></li>
             <li className='split points'>
@@ -29,6 +29,7 @@ function Skills() {
                 <span>{`PostgreSQL`}</span>
                 <span>{`Firebase`}</span>
                 <span>{`MongoDB`}</span>
+                <span>{`Passportjs`}</span>
                 <span>{`Socket.io`}</span>
                 <span>{`WebRtc`}</span>
                 <span>{`SignalR`}</span>
@@ -62,6 +63,7 @@ function Skills() {
                 <span>{`Git`}</span>
                 <span>{`Agile`}</span>
                 <span>{`Scrum`}</span>
+                <span>{`JWT usage`}</span>
                 <span>{`Web3`}</span>
                 <span>{`Object oriented programming`}</span>
                 <span>{`Server management`}</span>

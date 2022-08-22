@@ -26,7 +26,7 @@ function Projects() {
               <ul className='listPoints summary'>
                 <li><span>{`This is a social media app project that allows you to post feed and follow people you want to view their posts.`}</span></li>
 
-                <li><span>{`You can edit and delete posts in the feed.`}</span></li>
+                <li><span>{`You can sort, report, share, edit, and delete posts in the feed.`}</span></li>
 
                 <li><span>{`Passportjs and JWT was used for authentication.`}</span></li>
 
