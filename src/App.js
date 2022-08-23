@@ -34,7 +34,7 @@ function App() {
               <br />
                 {`- I can do every task from the job responsibilities.`}
                 <br />
-                {`- I'm interest with any other position the company offer.`}
+                {`- I'm interested with any other position the company offer.`}
               </div>
               <input type="button" value="✖" onClick={()=>{ SetAlert(false) }} />
             </li>
