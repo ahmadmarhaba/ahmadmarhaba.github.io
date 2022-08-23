@@ -31,7 +31,12 @@ function App() {
           {
             alert &&
             <li className='alert'>
-              <div>I already applied for a canadian work permit with my current canadian job, I'm just waiting the papers to finish then I'm going to Canada.</div>
+              <div>{`- I have a canadian work permit in progress.`}
+              <br />
+                {`- I can do every task from the job responsibilities.`}
+                <br />
+                {`- I'm interest with any other position the company offer.`}
+              </div>
               <input type="button" value="✖" onClick={()=>{ SetAlert(false) }} />
             </li>
           }
