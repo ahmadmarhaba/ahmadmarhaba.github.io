@@ -6,7 +6,6 @@ import  Education  from "./Component/Education";
 import  Certificates  from "./Component/Certificates";
 import  Languages  from "./Component/Languages";
 import  Skills  from "./Component/Skills";
-import  Visa  from "./Component/Visa";
 import  Letter  from "./Component/Letter";
 import { useState } from 'react';
 
@@ -58,7 +57,6 @@ function App() {
           {
             page === 2 && <>
               <Letter />
-              <Visa />
             </>
           }
           
