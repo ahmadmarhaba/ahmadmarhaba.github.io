@@ -7,6 +7,30 @@ function Projects() {
           <li><h2>Projects</h2></li>
           <li>
             <h3>
+              {`E-Commerce App`}
+            </h3>
+            <ul className='detailList'>
+              <li className='split'>
+                {`Live Preview`} 
+                <div>
+                  <input type="button" value="Application" onClick={() =>previewFile("https://e-commerce-app-nextjs-pi.vercel.app/")}/>
+                </div>
+              </li>
+              <li className='split'>
+                {`Github Code`}
+                <div>
+                  <input type="button" value="Client" onClick={() =>previewFile("https://github.com/ahmadmarhaba/e-commerce-app-nextjs")}/>
+                </div>
+              </li>
+              <ul className='listPoints summary'>
+                <li><span>{`A e-commerce app that shows a list of products your able to buy.`}</span></li>
+
+                <li><span>{`You can search for specific products and add items into your cart before checkout.`}</span></li>
+              </ul>
+            </ul>
+          </li>
+          <li>
+            <h3>
               {`Social Media App`}
             </h3>
             <ul className='detailList'>

@@ -40,7 +40,7 @@ function WorkExperience() {
                         <span>{`Created a 3d game that connect students with each other to contest each other online.`}</span>
                     </li>
                     <li>
-                        <span>{`Worked with a designer and a data analyst, while having a senior developer supervising project progress.`}</span>
+                      <span>{`Worked with many professional people as the company have over 50 employee`}</span>
                     </li>
                 </ul>
             </ul>
@@ -81,7 +81,7 @@ function WorkExperience() {
                       <span>{`Recreated a site called yumush that allows users to critic products using rating and post discussion threads.`}</span>
                   </li>
                   <li>
-                      <span>{`Worked with a designer, while having multiple senior developers supervising project progress.`}</span>
+                      <span>{`Worked with many professional people as the company have over 50 employee`}</span>
                   </li>
               </ul>
             </ul>

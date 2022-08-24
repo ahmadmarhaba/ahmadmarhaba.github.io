@@ -9,13 +9,13 @@ function Skills() {
                 <span>{`React js`}</span>
                 <span>{`Next js`}</span>
                 <span>{`Electron js`}</span>
-                <span>{`MVC .net`}</span>
+                <span>{`MVC .Net`}</span>
                 <span>{`Unity`}</span>
                 <span>{`React Native`}</span>
                 <span>{`Xamarin`}</span>
                 <span>{`Redux`}</span>
                 <span>{`JQuery`}</span>
-                <span>{`Client-side visualization`}</span>
+                <span>{`Client visualization`}</span>
             </li>
             <li><h3>Back-end</h3></li>
             <li className='split points'>
@@ -35,8 +35,6 @@ function Skills() {
                 <span>{`SignalR`}</span>
                 <span>{`Nginx`}</span>
                 <span>{`Apache`}</span>
-                <span>{`JSON`}</span>
-                <span>{`XML`}</span>
             </li>
             <li><h3>DevOps</h3></li>
             <li className='split points'>
@@ -59,15 +57,18 @@ function Skills() {
             </li>
             <li><h3>Other</h3></li>
             <li className='split points'>
-                <span>{`Github`}</span>
+                <span>{`Stripe`}</span>
+                <span>{`JWT`}</span>
                 <span>{`Git`}</span>
+                <span>{`Github`}</span>
                 <span>{`Agile`}</span>
                 <span>{`Scrum`}</span>
-                <span>{`JWT usage`}</span>
                 <span>{`Web3`}</span>
                 <span>{`Object oriented programming`}</span>
                 <span>{`Server management`}</span>
                 <span>{`Hosting management`}</span>
+                <span>{`JSON`}</span>
+                <span>{`XML`}</span>
             </li>
     </>
   );
