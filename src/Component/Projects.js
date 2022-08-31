@@ -24,7 +24,7 @@ function Projects() {
             </div>
           </li>
           <ul className='listPoints summary'>
-            <li><span>{`A music streaming app being an online music player.`}</span></li>
+            <li><span>{`A music streaming app providing an online music player.`}</span></li>
             <li><span>{`You can view artists, albums, and songs that you can play and enjoy with a custom made player.`}</span></li>
             <li><span>{`Also you can add music to your library collection so you would keep the songs you love near you.`}</span></li>
           </ul>
