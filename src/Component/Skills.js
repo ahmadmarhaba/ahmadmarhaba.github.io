@@ -30,15 +30,15 @@ function Skills() {
                 <span>{`PostgreSQL`}</span>
                 <span>{`Firebase`}</span>
                 <span>{`MongoDB`}</span>
+                <span>{`Mongoose`}</span>
+                <span>{`Prisma`}</span>
                 <span>{`Passportjs`}</span>
                 <span>{`Socket.io`}</span>
                 <span>{`WebRtc`}</span>
                 <span>{`SignalR`}</span>
+                <span>{`Cloudinary`}</span>
                 <span>{`Nginx`}</span>
                 <span>{`Apache`}</span>
-                <span>{`Mongoose`}</span>
-                <span>{`Prisma`}</span>
-                <span>{`Cloudinary`}</span>
             </li>
             <li><h3>DevOps</h3></li>
             <li className='split points'>
