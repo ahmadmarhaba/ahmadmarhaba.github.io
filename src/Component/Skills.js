@@ -10,7 +10,7 @@ function Skills() {
                 <span>{`Nextjs`}</span>
                 <span>{`.Net`}</span>
                 <span>{`Redux`}</span>
-                <span>{`Ajax requests`}</span>
+                <span>{`Ajax`}</span>
                 {/* <span>{`Electron js`}</span> */}
                 {/* <span>{`React Native`}</span> */}
                 {/* <span>{`Unity`}</span> */}
@@ -23,18 +23,18 @@ function Skills() {
                 <span>{`Node js`}</span>
                 <span>{`Redis`}</span>
                 <span>{`Rest API`}</span>
+                <span>{`WebRtc`}</span>
                 <span>{`SQL Server`}</span>
                 <span>{`MySQL`}</span>
                 <span>{`PostgreSQL`}</span>
                 <span>{`Firebase`}</span>
                 <span>{`MongoDB`}</span>
-                <span>{`Socket.io`}</span>
+                {/* <span>{`Socket.io`}</span> */}
                 {/* <span>{`Asp .net`}</span> */}
                 {/* <span>{`Php`}</span> */}
                 {/* <span>{`Mongoose`}</span> */}
                 {/* <span>{`Prisma`}</span> */}
                 {/* <span>{`Passportjs`}</span> */}
-                {/* <span>{`WebRtc`}</span> */}
                 {/* <span>{`SignalR`}</span> */}
                 {/* <span>{`Cloudinary`}</span> */}
                 {/* <span>{`Nginx`}</span> */}
@@ -44,7 +44,7 @@ function Skills() {
             <li className='split points'>
                 <span>{`CI/CD`}</span>
                 <span>{`Github actions`}</span>
-                <span>{`Github pages`}</span>
+                {/* <span>{`Github pages`}</span> */}
                 {/* <span>{`Docker`}</span> */}
                 {/* <span>{`Terraform`}</span> */}
                 {/* <span>{`Kubernetes`}</span> */}
