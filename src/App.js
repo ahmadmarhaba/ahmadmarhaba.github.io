@@ -11,7 +11,7 @@ import { useState } from 'react';
 
 function App() {
   const [page, SetPage] = useState(0)
-  const [alert, SetAlert] = useState(true)
+  // const [alert, SetAlert] = useState(true)
   return (
     <div className="App">
       <div className='nav'>
