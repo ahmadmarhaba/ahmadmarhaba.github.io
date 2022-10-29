@@ -58,11 +58,9 @@ function Skills() {
             <li><h3>Other</h3></li>
             <li className='split points'>
                 <span>{`Git`}</span>
-                <span>{`Agile`}</span>
-                <span>{`Scrum`}</span>
                 <span>{`OOP`}</span>
-                <span>{`JSON`}</span>
-                <span>{`XML`}</span>
+                <span>{`Agile/Scrum`}</span>
+                <span>{`JSON/XML`}</span>
                 {/* <span>{`Server management`}</span> */}
                 {/* <span>{`Hosting management`}</span> */}
             </li>
