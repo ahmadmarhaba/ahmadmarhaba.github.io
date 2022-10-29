@@ -27,7 +27,7 @@ function App() {
       </div>
       <div className='main'>
         <ul>
-          {
+          {/* {
             alert &&
             <li className='alert'>
               <div>
@@ -39,7 +39,7 @@ function App() {
               </div>
               <input type="button" value="✖" onClick={() => { SetAlert(false) }} />
             </li>
-          }
+          } */}
           {
             page === 0 && <>
               <PersonalInformation />
