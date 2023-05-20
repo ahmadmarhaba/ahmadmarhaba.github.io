@@ -7,17 +7,61 @@ function Projects() {
       <li><h2>Projects</h2></li>
       <li>
         <h3>
-          {`Music streaming App`}
+          {`Kasada's solution`}
+        </h3>
+        <ul className='detailList'>
+          <ul className='listPoints summary'>
+            <li><span>{`Solved kasada's anti-bot solution`}</span></li>
+          </ul>
+        </ul>
+      </li>
+      <li>
+        <h3>
+          {`Coptivity`}
+        </h3>
+        <ul className='detailList'>
+          <ul className='listPoints summary'>
+            <li><span>{`A tool that automate human activities on NIKE store.`}</span></li>
+          </ul>
+        </ul>
+      </li>
+      <li>
+        <h3>
+          {`Educational Kids Platform`}
+        </h3>
+        <ul className='detailList'>
+          <ul className='listPoints summary'>
+            <li><span>{`A desktop application designed to enhance children's learning online.`}</span></li>
+          </ul>
+        </ul>
+      </li>
+      <li>
+        <h3>
+          {`Makane`}
+        </h3>
+        <ul className='detailList'>
+          <ul className='listPoints summary'>
+            <li><span>{`An online store for Saudi Arabia powered by VIVA.`}</span></li>
+          </ul>
+        </ul>
+      </li>
+      <li>
+        <h3>
+          {`Yumush`}
+        </h3>
+        <ul className='detailList'>
+          <ul className='listPoints summary'>
+            <li><span>{`A site that allow users to critic products.`}</span></li>
+          </ul>
+        </ul>
+      </li>
+      <li>
+        <h3>
+          {`Music App`}
         </h3>
         <ul className='detailList'>
           <li className='split'>
-            {`Live Preview`}
-            <div>
-              <input type="button" value="Application" onClick={() => previewFile("https://ahmadmarhaba.github.io/music-streaming-app-react/")} />
-            </div>
-          </li>
-          <li className='split'>
-            {`Github Code`}
+            {`Code`}
             <div>
               <input type="button" value="Client" onClick={() => previewFile("https://github.com/ahmadmarhaba/music-streaming-app-react")} />
               <input type="button" value="Server" onClick={() => previewFile("https://github.com/ahmadmarhaba/music-streaming-app-nodejs")} />
@@ -36,13 +80,7 @@ function Projects() {
         </h3>
         <ul className='detailList'>
           <li className='split'>
-            {`Live Preview`}
-            <div>
-              <input type="button" value="Application" onClick={() => previewFile("https://e-commerce-app-nextjs-pi.vercel.app/")} />
-            </div>
-          </li>
-          <li className='split'>
-            {`Github Code`}
+            {`Code`}
             <div>
               <input type="button" value="Client" onClick={() => previewFile("https://github.com/ahmadmarhaba/e-commerce-app-nextjs")} />
             </div>
@@ -59,13 +97,7 @@ function Projects() {
         </h3>
         <ul className='detailList'>
           <li className='split'>
-            {`Live Preview`}
-            <div>
-              <input type="button" value="Application" onClick={() => previewFile("https://ahmadmarhaba.github.io/social-media-app-react/")} />
-            </div>
-          </li>
-          <li className='split'>
-            {`Github Code`}
+            {`Code`}
             <div>
               <input type="button" value="Client" onClick={() => previewFile("https://github.com/ahmadmarhaba/social-media-app-react")} />
               <input type="button" value="Server" onClick={() => previewFile("https://github.com/ahmadmarhaba/social-media-app-nodejs")} />
@@ -83,13 +115,7 @@ function Projects() {
         </h3>
         <ul className='detailList'>
           <li className='split'>
-            {`Live Preview`}
-            <div>
-              <input type="button" value="Application" onClick={() => previewFile("https://chat-app-nextjs-ahmadmarhaba.vercel.app")} />
-            </div>
-          </li>
-          <li className='split'>
-            {`Github Code`}
+            {`Code`}
             <div>
               <input type="button" value="Client" onClick={() => previewFile("https://github.com/ahmadmarhaba/chat-app-nextjs")} />
               <input type="button" value="Server" onClick={() => previewFile("https://github.com/ahmadmarhaba/chat-app-nodejs")} />
@@ -103,17 +129,11 @@ function Projects() {
       </li>
       <li>
         <h3>
-          {`WS Product`}
+          {`Stats App`}
         </h3>
         <ul className='detailList'>
           <li className='split'>
-            {`Live Preview`}
-            <div>
-              <input type="button" value="Application" onClick={() => previewFile("https://ahmadmarhaba.github.io/ws-product-react/")} />
-            </div>
-          </li>
-          <li className='split'>
-            {`Github Code`}
+            {`Code`}
             <div>
               <input type="button" value="Client" onClick={() => previewFile("https://github.com/ahmadmarhaba/ws-product-react")} />
               <input type="button" value="Server" onClick={() => previewFile("https://github.com/ahmadmarhaba/ws-product-nodejs")} />
@@ -124,28 +144,6 @@ function Projects() {
             <li><span>{`The charts contains data binding to show more information with each hover.`}</span></li>
             <li><span>{`The table was to managing search input for easy access to information and highlighting the matching results.`}</span> </li>
             <li><span>{`The geo chart was added to solve the cluster problem which makes overlapping locations in a small area join for easy view, displaying the amount of clusters in specific location.`}</span> </li>
-          </ul>
-        </ul>
-      </li>
-      <li>
-        <h3>
-          {`My Personal Website`}
-        </h3>
-        <ul className='detailList'>
-          <li className='split'>
-            {`Live Preview`}
-            <div>
-              <input type="button" value="Application" onClick={() => previewFile("https://ahmadmarhaba.github.io")} />
-            </div>
-          </li>
-          <li className='split'>
-            {`Github Code`}
-            <div>
-              <input type="button" value="Client" onClick={() => previewFile("https://github.com/ahmadmarhaba/ahmadmarhaba.github.io")} />
-            </div>
-          </li>
-          <ul className='listPoints summary'>
-            <li><span>{`Easy access to my information like Resume, Portfolio, and Cover Letter in a simple modern client.`}</span></li>
           </ul>
         </ul>
       </li>

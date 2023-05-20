@@ -12,7 +12,7 @@ function PersonalInformation() {
         <ul className='detailList'>
           <li className='split'>
             <span>{`Title`}</span>
-            <span>{`Full stack developer`}</span>
+            <span>{`Full stack software developer`}</span>
           </li>
           <li className='split'>
             <span>{`Full Name`}</span>
@@ -25,12 +25,10 @@ function PersonalInformation() {
           <li className='split'>
             <span>{`LinkedIn`}</span>
             <span><a href="https://www.linkedin.com/in/ahmad-marhaba-029145181" target="_blank" rel="noreferrer">linkedin.com/in/ahmad-marhaba-029145181</a></span>
-            {/* <input type="button" value="View" onClick={() => previewFile("https://www.linkedin.com/in/ahmad-marhaba-029145181/")}/> */}
           </li>
           <li className='split'>
             <span>{`Github`}</span>
             <span><a href="https://github.com/ahmadmarhaba" target="_blank" rel="noreferrer">github.com/ahmadmarhaba</a></span>
-            {/* <input type="button" value="View" onClick={() => previewFile("https://github.com/ahmadmarhaba")}/> */}
           </li>
         </ul>
       </li>
