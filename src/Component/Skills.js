@@ -6,9 +6,9 @@ function Skills() {
             <li><h2>Skills</h2></li>
             <li><h3>Frontend</h3></li>
             <li className='split points'>
-                <span>{`ReactJs`}</span>
-                <span>{`NextJs`}</span>
-                <span>{`ElectronJs`}</span>
+                <span>{`React js`}</span>
+                <span>{`Next js`}</span>
+                <span>{`Electron js`}</span>
             </li>
             <li><h3>Backend</h3></li>
             <li className='split points'>
@@ -29,25 +29,27 @@ function Skills() {
             </li>
             <li><h3>DevOps</h3></li>
             <li className='split points'>
-                <span>{`CI/CD`}</span>
-                <span>{`Github actions`}</span>
+                <span>{`CI/CD with Github actions`}</span>
             </li>
             <li><h3>Other</h3></li>
             <li className='split points'>
+                <span>{`Webpack`}</span>
+                <span>{`Ant design`}</span>
+                <span>{`Bootstrap`}</span>
                 <span>{`Ajax`}</span>
                 <span>{`JQuery`}</span>
                 <span>{`Git`}</span>
                 <span>{`OOP`}</span>
                 <span>{`Agile-Scrum`}</span>
-                <span>{`JSON/XML`}</span>
+                <span>{`JSON/XML/CSV/XLSX`}</span>
                 <span>{`Bot-Automation`}</span>
             </li>
             <li><h3>Languages</h3></li>
             <li className='split points'>
                 <span>{`Typescript`}</span>
                 <span>{`Javascript`}</span>
-                <span>{`Sql`}</span>
                 <span>{`C#`}</span>
+                <span>{`Sql`}</span>
                 <span>{`Html`}</span>
                 <span>{`Css`}</span>
             </li>
